@@ -22,7 +22,7 @@ function CrudTable({datos, setDatos, handleDelete, inputEquipo, inputPais, setIn
         
         const edicion = [...datos] // copia el array anterior
         
-        edicion[itemEditar] = {
+        edicion[itemEditar] = { // actualizamos los valores del elemento (objeto) del array
             equipo: inputEquipo,
             pais: inputPais,
         }
